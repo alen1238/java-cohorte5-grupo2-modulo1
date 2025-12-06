@@ -163,3 +163,35 @@ Finaliza el programa.
 2.  Demostrar uso de herencia, interfaces, sobrecarga y polimorfismo.
 3.  Implementar menú funcional con manejo de errores.
 4.  Crear y reproducir playlists.
+
+## 9. Estructura de carpetas sugerida del proyecto
+
+📦 mini-spotify/
+│
+├── 📁 src/
+│   │
+│   ├── 📁 modelo/
+│   │   ├── Reproducible.java
+│   │   ├── Multimedia.java
+│   │   ├── Cancion.java
+│   │   ├── Playlist.java
+│   │   ├── BibliotecaMusical.java
+│   │   └── CuentaSpotify.java
+│   │
+│   ├── 📁 app/
+│   │   └── SpotifyApp.java
+│   │
+│   └── 📁 utils/   *(Opcional, según complejidad del estudiante)*
+│       └── Entrada.java
+│
+├── 📁 docs/
+│   ├── enunciado_spotify_avanzado.md
+│   ├── diagrama_clases_plantuml.puml
+│   └── estructura_proyecto.md
+│
+├── 📁 diagrams/
+│   └── clases.png  
+│
+├── README.md
+└── .gitignore
+
